@@ -1,0 +1,281 @@
+body {
+    background-color: bisque;
+    margin: 0%;
+    padding: 0%;
+    font-family: monospace;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2vw;
+}
+
+li {
+    font-size: 1.2vw;
+}
+
+
+
+.Blocos {
+    display: flex;
+    flex-direction: row;
+}
+
+.Nav {
+    display: flex;
+    font-size: 1.2vw;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ACCE91;
+    width: 20%;
+    height: 192vh;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+
+    ul {
+        font-size: 1.7vw;
+    }
+}
+
+
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.Titulo {
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    font-size: 2vw;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #8DB986;
+    height: 20vh;
+    width: 98%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.img1 {
+    border-radius: 15%;
+    width: 14vw;
+    max-width: 100%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img2 {
+    border-radius: 15%;
+    width: 14vw;
+    max-width: 100%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.Blocos2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.1vw;
+}
+
+.Bloco2 {
+    background-image: url(parallax.jpg);
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: solid 2px;
+    padding: 2%;
+    height: 140vh;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+
+    h2 {
+        color: aliceblue;
+    }
+
+}
+
+.music {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+
+.vd {
+    padding-top: 6%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 5%;
+    justify-content: center;
+
+    
+    img{
+        width: 20vw;
+        height: 30vh;
+        }
+
+}
+
+
+.audio {
+    display: flex;
+    border-radius: 10px;
+    margin-right: 20%;
+    margin-left: 10%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    background-color: white;
+
+}
+
+
+
+
+
+.Rodape {
+    background-color: #8DB986;
+    color: black;
+    text-align: center;
+    height: 18.4vh;
+    font-size: 1.2vw;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 1% 0;
+
+}
+
+.Bloco2-1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1vw;
+    text-align: justify;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white;
+    width: 40%;
+    height: auto;
+
+    p {
+        padding-left: 5%;
+    }
+}
+
+.p {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 2%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0%;
+
+        display: flex;
+        flex-direction: column;
+
+        p {
+            font-size: 2.5vw;
+        }
+
+        h1 {
+            font-size: 4vw;
+        }
+
+        h2 {
+            font-size: 3vw;
+        }
+
+        li {
+            font-size: 2.5vw;
+        }
+
+
+    }
+    
+
+    .Bloco2 {
+        height: 80vh;
+
+
+
+
+
+    }
+
+
+
+    .img1 {
+        width: 18vw;
+
+    }
+
+    .img2 {
+        width: 20vw;
+
+    }
+
+
+    .Titulo {
+        font-size: 2vw;
+    }
+
+
+
+    .Nav {
+
+        font-size: 2vw;
+        height: 120vh;
+        width: 25%;
+
+
+
+        a {
+            font-size: 3vw;
+        }
+
+        h2 {
+            margin-left: 14%;
+        }
+
+    }
+
+    .Rodape {
+        height: 16.2vh;
+
+        p {
+            font-size: 3vw;
+
+
+        }
+
+    }
+    .Bloco2-1 {
+        width: 60%;
+    }
+}
