@@ -122,8 +122,8 @@ li {
 
     
     img{
-        width: 30vw;
-        height: 20vh;
+        width: 20vw;
+        height: 30vh;
         }
 
 }
@@ -221,13 +221,19 @@ li {
 
     .Bloco2 {
         height: 80vh;
+        
 
 
 
 
 
     }
-
+.vd{
+    img{
+        width: 30vw;
+        height: 20vh;
+    }
+}
 
 
     .img1 {
@@ -251,7 +257,7 @@ li {
 
         font-size: 2vw;
         height: 120vh;
-        width: 25%;
+        width: 30%;
 
 
 
