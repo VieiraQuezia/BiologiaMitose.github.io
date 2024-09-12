@@ -225,7 +225,7 @@ li {
         margin-right: -10%;
         height: 100vh;
 
-        
+
     }
 
     .Blocos2 {
@@ -242,11 +242,11 @@ li {
     audio {
         width: 80vw;
         height: 5vh;
+        margin-top: -5%;
+        margin-left: -10%;
     }
 
     .vd {
-        width: 40vw;
-        height: 30vh;
 
         img {
             width: 30vw;
@@ -254,6 +254,11 @@ li {
         }
     }
 
+    video {
+        width: auto;
+        height: 30vh;
+        /* margin-left: 5%; */
+    }
 
     .img1 {
         width: 18vw;
@@ -268,9 +273,8 @@ li {
 
     .Titulo {
         font-size: 2vw;
+        width: 121%;
     }
-
-
 
     .Nav {
 
@@ -292,7 +296,7 @@ li {
 
     .Rodape {
         height: 16.2vh;
-        margin-right: -17%;
+        margin-right: -22.7%;
 
         p {
             font-size: 3vw;
