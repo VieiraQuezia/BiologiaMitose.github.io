@@ -124,6 +124,7 @@ li {
     img {
         width: 20vw;
         height: 30vh;
+        border-radius: 10px;
     }
 
 }
@@ -249,8 +250,8 @@ li {
     .vd {
 
         img {
-            width: 30vw;
-            height: 20vh;
+            width: auto;
+            height: 30vh;
         }
     }
 
