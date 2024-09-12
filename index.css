@@ -120,11 +120,11 @@ li {
     margin-top: 5%;
     justify-content: center;
 
-    
-    img{
+
+    img {
         width: 20vw;
         height: 30vh;
-        }
+    }
 
 }
 
@@ -162,6 +162,7 @@ li {
     text-align: justify;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
     padding: 2%;
+    padding-right: 2%;
     border-radius: 10px;
     background-color: white;
     width: 40%;
@@ -217,23 +218,37 @@ li {
 
 
     }
-    
 
     .Bloco2 {
-        height: 80vh;
+        height: 100vh;
         
-
-
-
-
-
     }
-.vd{
-    img{
-        width: 30vw;
-        height: 20vh;
+
+    .Blocos2 {
+        margin-right: -17%;
+        height: 100vh;
     }
-}
+
+    .music {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    audio {
+        width: 80vw;
+        height: 5vh;
+    }
+
+    .vd {
+        width: 40vw;
+        height: 30vh;
+
+        img {
+            width: 30vw;
+            height: 20vh;
+        }
+    }
 
 
     .img1 {
@@ -256,7 +271,7 @@ li {
     .Nav {
 
         font-size: 2vw;
-        height: 120vh;
+        height: 137.8vh;
         width: 30%;
 
 
@@ -273,6 +288,7 @@ li {
 
     .Rodape {
         height: 16.2vh;
+        margin-right: -17%;
 
         p {
             font-size: 3vw;
@@ -281,7 +297,8 @@ li {
         }
 
     }
+
     .Bloco2-1 {
-        width: 60%;
+        width: 80%;
     }
 }
